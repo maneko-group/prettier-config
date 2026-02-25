@@ -3,15 +3,20 @@
   "type": "module",
   "version": "0.1.2",
   "packageManager": "pnpm@10.18.3",
-  "description": "A shared, ESM-first Prettier config for our projects",
+  "description": "Maneko Group's Prettier config",
+  "author": "Maneko Group",
   "license": "MIT",
-  "homepage": "https://github.com/maneko-org/prettier-config",
+  "homepage": "https://github.com/maneko-group/prettier-config",
   "repository": {
-    "url": "https://github.com/maneko-org/prettier-config"
+    "type": "git",
+    "url": "git+https://github.com/maneko-group/prettier-config.git"
   },
   "bugs": {
-    "url": "https://github.com/maneko-org/prettier-config/issues"
+    "url": "https://github.com/maneko-group/prettier-config/issues"
   },
+  "keywords": [
+    "prettier-config"
+  ],
   "exports": {
     ".": {
       "types": "./index.d.ts",
@@ -20,7 +25,8 @@
     }
   },
   "publishConfig": {
-    "access": "public"
+    "access": "public",
+    "registry": "https://registry.npmjs.org"
   },
   "main": "index.js",
   "types": "index.d.ts",

@@ -36,7 +36,9 @@
   ],
   "scripts": {
     "build": "tsdown",
-    "format": "prettier --write \"*.js\"",
+    "watch": "tsdown --watch",
+    "format": "prettier --write .",
+    "release": "bumpp",
     "prepare": "simple-git-hooks"
   },
   "peerDependencies": {
